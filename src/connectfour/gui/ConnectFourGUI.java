@@ -21,6 +21,8 @@ import static connectfour.model.ConnectFourBoard.COLS;
 import static connectfour.model.ConnectFourBoard.ROWS;
 import connectfour.model.ConnectFourBoard.Player;
 
+
+
 /**
  * The JavaFX compliant GUI version of the Connect Four game.
  *
@@ -43,6 +45,8 @@ public class ConnectFourGUI extends Application implements Observer<ConnectFourB
     private Label gameStatus;
     /** the layout for game */
     private HBox hBox;
+
+
 
     /** image corresponding to player 1 */
     private javafx.scene.image.Image p1black =
